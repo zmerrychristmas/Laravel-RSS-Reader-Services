@@ -1,4 +1,4 @@
-# Laravel Blog Feed Reader
+# Laravel RSS Reader Services
 Give a tool that can read a feed or rss, user can register it and bookmark articles to read late. It's also implement cache that help a lot of processing and performance. You can modify time cache at config/blog_feed.php
 ## Requirement
 - MySQL
@@ -13,10 +13,10 @@ composer install
 php artisan key:generator
 php artisan migrate
 ```
-### Setup Database
+### Setup
 1. Create database
 2. Paste database name at .env file
-3. add this line into app, into services array
+3. add this line into config/app, into services array
 ```
 App\Providers\RssReaderServiceProvider::class,
 ```
