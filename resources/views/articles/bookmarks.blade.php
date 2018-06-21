@@ -35,7 +35,7 @@
                     @foreach($items as $item)
                         <tr>
                             <td>{{$item->id}}</td>
-                            <td><a href="{{$item->link}}">{{$item->title}}</a></td>
+                            <td><a href="{{$item->url}}">{{$item->title}}</a></td>
                             <td>{{strftime('%m/%d/%Y %I:%M %p', strtotime($item->pub_date))}}</td>
                             <td><input type="checkbox" value="{{$item->link}}" name="article_link" data-url="{{$item->url}}" data-pubdate="{{$item->pub_date}}" data-title="{{$item->title}}" class=" bookmark" checked="checked"></td>
                         </tr>
