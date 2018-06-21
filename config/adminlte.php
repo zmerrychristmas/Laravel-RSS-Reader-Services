@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>MailServer',
+    'logo' => '<b>Admin</b>RssReader',
 
     'logo_mini' => '<b>A</b>LT',
 
